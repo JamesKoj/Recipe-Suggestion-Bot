@@ -1,0 +1,18 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "miso Food chatbot",
+  "main": "index.js",
+  "engines": {
+      "node":"14.1.0",
+      "npm": "6.14.4"
+  },
+  "scripts": {
+    "start": "node inxex.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
