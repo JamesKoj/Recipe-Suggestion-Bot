@@ -1,0 +1,74 @@
+.btn-floating {text-align:center}
+
+.card-chat {margin: 0px}
+
+.card-panel-4 {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    margin-top: 0.1rem;
+    margin-bottom:0.4rem;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 17px;
+    padding-right: 24px;
+    padding-bottom: 17px;
+    padding-left: 24px;
+    transition-property: box-shadow;
+    transition-duration: 0.25s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    background-color:#DCDCDC;
+}
+
+.container {
+  max-width: 1280px;
+  width: 85%;
+}
+
+.landingimg2 {
+    margin-top: 5vh;
+    max-height:500px;
+    width:100%;
+}
+
+nav .brand-logo {
+    padding-left:15px;
+}
+
+.chatbot-box {
+    height: 500px;
+    width:100%;
+    margin-top:5vh; 
+    border:1px solid lightgray;
+}
+
+#chatbot {
+    height:425px;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.messages-chat {
+    float:left;
+    clear:both;
+}
+
+#input-chatbot {
+    margin:0;
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 98%;
+}
+
+#about-text {
+    text-align:center;
+    max-height:500px;
+    width:100%;
+}
+
+#about-img {
+    margin-top: 10px;
+}
