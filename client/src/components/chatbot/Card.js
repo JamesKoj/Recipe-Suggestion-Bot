@@ -9,7 +9,7 @@ const Card = (props) => {
                   <span className="card-title">{props.payload.fields.header.stringValue}</span>
                 </div>
                 <div className="card-content">
-                  {props.payload.fields.description.stringValue}
+                  "{props.payload.fields.description.stringValue}"
                 </div>
                 <div className="card-action">
                   <a target="_blank" rel="noopener noreferrer" href={props.payload.fields.link.stringValue}>Go to recipe </a>
